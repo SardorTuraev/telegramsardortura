@@ -1,0 +1,1477 @@
+<!doctype html>
+<html class="h-100" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Telegram</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-body d-flex flex-column h-100 bg-light w-100 overflow-hidden">
+  
+  
+  <div class="p-0 vh-100">
+    <div class="row h-100 no-gutters w-100 h-100 shadow-sm">     
+      <div class="col-3">       
+        <nav class="navbar navbar-light bg-white d-flex px-2">
+          <div class="d-flex w-100 justify-content-between">
+            <button class="navbar-toggler border-0 w-25 px-0 mr-2" type="button" data-toggle="modal" data-target="#exampleModal" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon h-75"></span>
+            </button>
+            <form class="form-inline w-100">
+              <input class="form-control border-0 w-100 bg-light" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="site-nav__icon-lock d-flex  align-items-center">
+              <button class="bg-transparent border-0" data-toggle="modal" data-targetdata-toggle="modal" data-target="#lock">
+                <img src="img/lock-open.svg"  alt="LOCK">
+              </button>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="modal fade p-0" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog m-0 rounded-0 w-25" role="document">
+            <div class="modal-content rounded-0">
+              <div class="modal-body p-0 vh-100 overflow-hidden"> 
+                <div class="bg-primary w-100 p-4 modal-body__top">
+                  <div class="d-flex justify-content-between">
+                    <img class="rounded-pill bg-transparent px-1" src="img/profile.jpg" width="60" height="55" alt="PROFILE PHOTO">
+                    <img class="border-dark bg-info rounded-pill py-1 px-1" width="30" height="30" src="img/bookmark.svg" alt="BOOKMARK">
+                  </div>
+                  
+                  <div class="modal__collapsing mt-2">   
+                    <button class="border-0 bg-transparent text-white m-0 d-flex justify-content-between w-100 align-items-center rounded-0" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      <div class="modal__collapsing-name d-flex flex-column text-left">
+                        <span>Sardor Turaev</span>
+                        <span>+998 99 8904680</span>
+                      </div>
+                      <img src="img/arrow-bottom.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+                
+                
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body border-0 bg-white d-flex flex-row align-items-center py-0 mt-2">
+                    <img class="rounded-circle bg-transparent py-1 px-1 mr-2" src="img/profile.jpg" width="40" height="40" alt="PROFILE PHOTO">
+                    <p class="m-0 h6">Sardor Turaev</p>
+                  </div>
+                  
+                  <div class="card card-body border-0 bg-white d-flex flex-row align-items-center py-0 mt-2 mb-2">
+                    <img class="rounded-circle bg-transparent py-1 px-1 mr-2" src="img/account-person.svg" width="40" height="40" alt="PROFILE PHOTO">
+                    <p class="m-0 h6">Add Account</p>
+                  </div>
+                </div>
+                
+                <div class="d-flex flex-column pl-4 mt-2">
+                  <a class="text-dark h6 mt-3 text-decoration-none" href="#">
+                    <img class="mr-3" src="img/group.svg" width="30" height="30" alt="account">
+                    New Group
+                  </a>
+                  
+                  <a class="text-dark h6 mt-3 text-decoration-none" href="#">
+                    <img class="mr-3" src="img/group.svg" width="30" height="30" alt="account">
+                    New Channel
+                  </a>
+                  
+                  <a class="text-dark h6 mt-3 text-decoration-none" href="#">
+                    <img class="mr-3" src="img/person.svg" width="30" height="30" alt="account">
+                    Contacts
+                  </a>
+                  
+                  <a class="text-dark h6 mt-3 text-decoration-none" href="#">
+                    <img class="mr-3" src="img/call.svg" width="30" height="30" alt="account">
+                    Calls
+                  </a>
+                  
+                  <a class="text-dark h6 mt-3 text-decoration-none" href="#">
+                    <img class="mr-3" src="img/settings.svg" width="30" height="30" alt="account">
+                    Settings
+                  </a>
+                  
+                  
+                  
+                  <a class="d-flex align-items-center text-decoration-none justify-content-between mt-3" href="#">
+                    <div class="d-flex align-items-center">
+                      <img class="mr-3" src="img/moon.svg" alt="new group" width="30" height="30">
+                      <h6 class="mb-0 text-dark">Night Mode</h6>
+                    </div>
+                    <div class="custom-control custom-switch mr-3">
+                      <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                      <label class="custom-control-label" for="customSwitch1"></label>
+                    </div>
+                  </a>
+                  
+                  <div class="pl-0 pt-4 mt-auto d-flex flex-column">
+                    <a class="font-weight-bold text-secondary mb-1" href="https://telegram.com">Telegram Desktop</a>
+                    <a class="text-secondary" href="#">Version 2.6.1 - About</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="modal fade bg-white pt-5" id="lock" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog mt-5" style="width: 350px;">
+            <div class="modal-content border-0">
+              <div class="modal-body border-0 d-flex flex-column align-items-center w-100">
+                <h4 class="mb-dark">Enter your local passcode</h4>
+                <form class="w-100 mb-3" action="https://echo.htmlacademy.ru" method="GET">
+                  <input class="form-control bg-light border-0 p-0 bg-white mb-4" type="text" name="search" placeholder="Yuor passcode" required>
+                  <button class="btn btn-primary w-100 py-3 text-white font-weight-bold" type="submit">Submit</button>
+                </form>
+                <a class="text-decoration-none text-primary" href="#">
+                  Log out
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="vh-100 overflow-auto">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item w-100 bg-white">
+              <a class="nav-link text-dark border-0 w-100 rounded-0 active text-truncate py-2 px-2 d-flex" id="pills-contact-tab" data-toggle="pill" href="#mayoq" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <img class="rounded-circle bg-transparent mr-2" src="img/mayoq.jpg" width="50" height="50" alt="">
+                <div class="w-100">
+                  <div class="d-flex justify-content-between w-100">
+                    <div class="d-flex align-content-center mt-1">
+                      <img class="bg-transparent mr-1 mt-1" width="15" height="15" src="img/channel.svg" alt="Channel">
+                      <h6 class="m-0">Mayoq</h6>   
+                    </div>    
+                    <p class="m-0"><time datetime="10:25">10:25 AM</time></p>
+                  </div>      
+                  <div class="d-flex justify-content-between w-100 mt-1">
+                    <p class="m-0 text-dark text-truncate chat-chat">#audiochat #podcast
+                      
+                      Telegram kanalimizda kechki audiochat-suhbatlarni tashkillashtirishni niyat qildik. 
+                      
+                      Audiochatning ilk mehmoni , «Najot ta'lim» o‘quv markazi o‘qituvchisi, frontend dasturchi Muhammadjavohir Sur'atov (@mayoquz).</p>      
+                      <span class="rounded-pill px-1 h6"><img src="img/pin-chats.svg" width="15" height="15" alt=""></span>
+                    </div>     
+                  </div>      
+                </a>
+              </li>
+              
+              <li class="nav-item w-100 bg-white">
+                <a class="nav-link text-dark border-0 w-100 rounded-0 text-truncate py-2 px-2 d-flex" id="pills-contact-tab" data-toggle="pill" href="#frontend" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <img class="rounded-circle bg-transparent mr-2" src="img/Frontend.jpg" width="50" height="50" alt="">
+                  <div class="w-100">
+                    <div class="d-flex justify-content-between w-100">
+                      <div class="d-flex align-content-center mt-1">
+                        <img class="bg-transparent mr-1 mt-1" width="15" height="15" src="img/group.svg" alt="Channel">
+                        <h6 class="m-0 text-truncate chat-title text-truncate"> Frontend Bootcamp N1 |09:00| #nt044 </h6>    
+                      </div>
+                      <p class="m-0"><time datetime="10:25">10:25 AM</time></p>
+                    </div>    
+                    <div class="d-flex justify-content-between w-100 mt-1">
+                      <p class="m-0 text-dark chat-chat text-truncate">Islom : Hangama qilamiz, kelinglar Najotga</p>      
+                      <span class="rounded-pill px-1 h6"><img src="img/pin-chats.svg" width="15" height="15" alt=""></span>
+                    </div>     
+                  </div>      
+                </a>
+              </li>
+              
+              
+              <li class="nav-item w-100 bg-white">
+                <a class="nav-link text-dark border-0 w-100 rounded-0 text-truncate py-2 px-2 d-flex" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  <img class="rounded-circle bg-transparent mr-2" src="img/mayoq.jpg" width="50" height="50" alt="">
+                  <div class="w-100">
+                    <div class="d-flex justify-content-between w-100">
+                      <h6 class="m-0"> Mayoq </h6>      
+                      <p class="m-0"><time datetime="10:25">10:25 AM</time></p>
+                    </div>    
+                    <div class="d-flex justify-content-between w-100 mt-1">
+                      <p class="m-0 text-dark">You</p>      
+                      <span class="rounded-pill px-1 h6 bg-primary">39</span>
+                    </div>     
+                  </div>      
+                </a>
+              </li>
+              
+            </ul>
+          </div>  
+        </div>
+        
+        
+        <!-- COL-6 MIDDLE -->
+        
+        <div class="col-6 bg-white">
+          
+          <div class="tab-content" id="pills-tabContent">
+            
+            <div class="tab-pane active vh-100 w-100" id="mayoq" role="tabpanel" aria-labelledby="pills-home-tab">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white border-bottom" data-toggle="modal" data-target="#groupInfoModal">       
+                <div class="d-flex justify-content-between w-100">          
+                  <div class="d-flex flex-column w-100">
+                    <p class="m-0 h6">Mayoq</p>
+                    <p class="m-0 mt-1">4,685 subscribers</p>
+                  </div>   
+                  
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <button class="nav-link border-0 bg-transparent" data-toggle="" data-target="#">
+                        <img src="img/search-icon.svg" alt="search">
+                      </button>
+                    </li>
+                    <li class="nav-item">
+                      <button class="nav-link border-0 bg-transparent" data-toggle="modal" data-target="#mainHeaderAudioChat"><img src="img/discuss.svg" alt="search"></button>
+                    </li>
+                    <li class="nav-item">
+                      <button class="nav-link border-0 bg-transparent" data-toggle="" data-target="#"><img src="img/book.svg" alt="search"></button>
+                    </li>
+                    <li class="nav-item">
+                      <button class="nav-link border-0 bg-transparent" data-toggle="dropdown" data-target="#"><img src="img/dots.svg" alt="search">
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item" type="button">View group info</button>
+                        <button class="dropdown-item" type="button">Enable notification</button>
+                        <button class="dropdown-item" type="button">Manage group</button>
+                        <button class="dropdown-item" type="button">Add mambers</button>
+                        <button class="dropdown-item" type="button">Export chat history</button>
+                        <button class="dropdown-item" type="button">Leave grop</button>
+                        <button class="dropdown-item" type="button">Clear history</button>
+                        <button class="dropdown-item" type="button">Report</button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              
+              
+              <div class="modal fade" id="groupInfoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header border-0">
+                      <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Group info</h5>
+                      <button class="btn ml-auto pt-0" type="button">
+                        <img src="img/dots.svg" alt="menu dots" width="15" height="15">
+                      </button> 
+                      <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="d-flex align-items-center w-100">
+                        <img class="rounded-pill" src="img/Frontend.jpg" alt="frontent-group" width="70" height="70">
+                        <div class="ml-3">
+                          <p class="h5 m-0">Frontend Bootcamp N1 |09:00| ...</p>
+                          <a class="text-decoration-none text-black-50 m-0" href="#">21 members</a>
+                        </div>
+                      </div>
+                      
+                      <div class="d-flex mt-5">
+                        <img class="mt-1 " src="img/info.svg" alt="info" width="30" height="30">
+                        <div class="w-100 d-flex flex-column ml-5  pb-3 border-bottom">
+                          <p class="m-0 font-weight-normal">Dushanba-Juma</p>
+                          <p class="m-0 font-weight-normal">Ochildi: 12.04.2021</p>
+                          <p class="m-0 font-weight-normal">Ustoz: Muhammadjavohir Sur'atov</p>
+                          <p class="m-0 font-weight-normal text-black-50">Description</p>
+                        </div>
+                      </div>
+                      
+                      <div class="d-flex align-items-center justify-content-between mt-4">
+                        <div>
+                          <img src="img/bellp.svg" alt="notifications" width="25" height="25">
+                          <a class="m-0 text-decoration-none text-dark ml-5" href="#">Notifications</a>
+                        </div>
+                        <div class="custom-control custom-switch mr-3">
+                          <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                          <label class="custom-control-label" for="customSwitch1"></label>
+                        </div>
+                      </div>  
+                      <div class="d-flex flex-column mt-5 pt-3 border-top">
+                        <ul class="list-unstyled text-left">
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/galery.svg" alt="photos" width="30" height="30">
+                            <a class="m-0 text-decoration-none text-dark pl-1" href="#">350 photos</a>
+                          </li>
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/videocam.svg" alt="videos" width="30" height="30">
+                            <a class="m-0 text-decoration-none text-dark" href="#">40 videos</a>
+                          </li>
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/description.svg" alt="files" width="25" height="25">
+                            <a class="m-0 text-decoration-none text-dark pl-1" href="#">224 files</a>
+                          </li>
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/link.svg" alt="links" width="30" height="30">
+                            <a class="m-0 text-decoration-none text-dark" href="#">566 shared links</a>
+                          </li>
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/micro_24dp.svg" alt="voice messages" width="30" height="30">
+                            <a class="m-0 text-decoration-none text-dark" href="#">24 voice messages</a>
+                          </li>
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/gif.svg" alt="photos" width="30" height="30">
+                            <a class="m-0 text-decoration-none text-dark" href="#">291 GiFs</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <div class="d-flex flex-column w-100 flex-grow-1">
+                        <div class="d-flex align-items-center w-100">
+                          <img src="img/group.svg" alt="members" width="30" height="30">
+                          <a class="text-decoration-none d-block ml-5 text-dark m-0 h6" href="#">21 MEMBERS</a>
+                          <img class="ml-auto" src="img/search-icon.svg" alt="memeber search" width="30" height="30">
+                        </div>
+                        
+                        <div class="d-flex flex-column mt-4">
+                          <div class="d-flex align-items-center mb-3">
+                            <img class="rounded-pill" src="img/Muhammadjavohir-aka.jpg" alt="avatar" width="50" height="50">
+                            <a class="text-decoration-none text-dark ml-3" href="#">
+                              <p class="m-0 font-weight-bold">Muhammadjavohir Su'ratov</p>
+                              <span class="text-black-50">last seen recently</span>
+                            </a>
+                          </div>
+                          <div class="d-flex align-items-center mb-3">
+                            <img class="rounded-pill" src="img/profile.jpg" alt="avatar" width="50" height="50">
+                            <a class="text-decoration-none text-dark ml-3" href="#">
+                              <p class="m-0 font-weight-bold">Sardor Turaev</p>
+                              <span class="text-success">online</span>
+                            </a>
+                          </div>
+                          <div class="d-flex align-items-center mb-3">
+                            <img class="rounded-pill" src="img/Asrorxojaka.jpg" alt="avatar" width="50" height="50">
+                            <a class="text-decoration-none text-dark ml-3" href="#">
+                              <p class="m-0 font-weight-bold">Asrorxo'ja aka</p>
+                              <span class="text-black-50">last seen just now</span>
+                            </a>
+                          </div>
+                          <div class="d-flex align-items-center mb-3">
+                            <img class="rounded-pill" src="img/Abdullohaka.jpg" alt="avatar" width="50" height="50">
+                            <a class="text-decoration-none text-dark ml-3" href="#">
+                              <p class="m-0 font-weight-bold">Abdulloh aka</p>
+                              <span class="text-success">online</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="pinned-message shadow p-2">
+                <div class="d-flex">
+                  <img class="mr-1" src="img/dots.svg" alt="Pinned Icon">
+                  <div class="pinned-messages__content text-truncate  m-0 ">
+                    <h6 class="m-0 mb-1 text-primary font-weight-bold">Pinned message</h6>
+                    27-avgust - onlayn kursning bepul qismini tugatishim uchun oʻzimga dedlayn.
+                    28-avgust saralash vazifasi eʼlon qilinadi. 1-sentabrgacha vazifani topshirish mumkin.
+                    6-sentabr - onlayn kursning premium qismi boshlanishi.
+                  </div>
+                  <img class="my-auto" src="img/pin.svg" width="20" height="20" alt="PIN">
+                </div>
+              </div>
+              
+              <div class="overflow-auto vh-100 chat">
+                <div class="d-flex flex-column pt-1 px-2">
+                  <span class="text-center"><time class="chat__time px-2 bg-success rounded-pill" datetime="20 August">August 20</time></span>
+                  <div class="chat__text">
+                    <img class="rounded-circle" src="img/.jpg" width="30" height="30" alt="Person">
+                    <div class="chat__text-message bg-white">
+                      <p class="m-0"></p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="chat__panel w-100 bg-white p-1">
+                  <form class="d-flex align-items-center" action="https://echo.htmlacademy.ru" method="POST">
+                    <div class="input-group d-flex align-items-center">
+                      <div>
+                        <label class="d-flex align-items-center">
+                          <input class="input-file form-control" type="file">
+                          <span class="btn-file"></span>
+                        </label>
+                      </div>
+                      
+                      <textarea class="txt-message flex-grow-1 border-0 px-3" name="message" cols="30" rows="1" placeholder="Write a message..."></textarea>
+                      
+                      <button class="btn-emojis border-0 bg-transparent mr-2" type="button"></button>
+                      <button class="btn-record-audio border-0 bg-transparent" type="button"></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <div class="tab-pane active vh-100 w-100" id="frontend" role="tabpanel" aria-labelledby="pills-home-tab">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white border-bottom" data-toggle="modal" data-target="#groupInfoModal">       
+                <div class="d-flex justify-content-between w-100">          
+                  <div class="d-flex flex-column w-100">
+                    <p class="m-0 h6">Frontend Bootcamp N1 |09:00| #nt044</p>
+                    <p class="m-0 mt-1">21 members</p>
+                  </div>   
+                  
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <button class="nav-link border-0 bg-transparent" data-toggle="" data-target="#">
+                        <img src="img/search-icon.svg" alt="search">
+                      </button>
+                    </li>
+                    <li class="nav-item">
+                      <button class="nav-link border-0 bg-transparent" data-toggle="" data-target="#"><img src="img/discuss.svg" alt="search"></button>
+                    </li>
+                    <li class="nav-item">
+                      <button class="nav-link border-0 bg-transparent" data-toggle="" data-target="#"><img src="img/book.svg" alt="search"></button>
+                    </li>
+                    <li class="nav-item">
+                      <button class="nav-link border-0 bg-transparent" data-toggle="" data-target="#"><img src="img/dots.svg" alt="search"></button>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              
+              
+              <div class="modal fade" id="groupInfoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header border-0">
+                      <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Group info</h5>
+                      <button class="btn ml-auto pt-0" type="button">
+                        <img src="img/dots.svg" alt="menu dots" width="15" height="15">
+                      </button>
+                      <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="d-flex align-items-center w-100">
+                        <img class="rounded-pill" src="img/Frontend.jpg" alt="frontent-group" width="70" height="70">
+                        <div class="ml-3">
+                          <p class="h5 m-0">Frontend Bootcamp N1 |09:00| ...</p>
+                          <a class="text-decoration-none text-black-50 m-0" href="#">21 members</a>
+                        </div>
+                      </div>
+                      
+                      <div class="d-flex mt-5">
+                        <img class="mt-1 " src="img/info.svg" alt="info" width="30" height="30">
+                        <div class="w-100 d-flex flex-column ml-5  pb-3 border-bottom">
+                          <p class="m-0 font-weight-normal">Dushanba-Juma</p>
+                          <p class="m-0 font-weight-normal">Ochildi: 12.04.2021</p>
+                          <p class="m-0 font-weight-normal">Ustoz: Muhammadjavohir Sur'atov</p>
+                          <p class="m-0 font-weight-normal text-black-50">Description</p>
+                        </div>
+                      </div>
+                      
+                      <div class="d-flex align-items-center justify-content-between mt-4">
+                        <div>
+                          <img src="img/bellp.svg" alt="notifications" width="25" height="25">
+                          <a class="m-0 text-decoration-none text-dark ml-5" href="#">Notifications</a>
+                        </div>
+                        <div class="custom-control custom-switch mr-3">
+                          <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                          <label class="custom-control-label" for="customSwitch1"></label>
+                        </div>
+                      </div>  
+                      <div class="d-flex flex-column mt-5 pt-3 border-top">
+                        <ul class="list-unstyled text-left">
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/galery.svg" alt="photos" width="30" height="30">
+                            <a class="m-0 text-decoration-none text-dark pl-1" href="#">350 photos</a>
+                          </li>
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/videocam.svg" alt="videos" width="30" height="30">
+                            <a class="m-0 text-decoration-none text-dark" href="#">40 videos</a>
+                          </li>
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/description.svg" alt="files" width="25" height="25">
+                            <a class="m-0 text-decoration-none text-dark pl-1" href="#">224 files</a>
+                          </li>
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/link.svg" alt="links" width="30" height="30">
+                            <a class="m-0 text-decoration-none text-dark" href="#">566 shared links</a>
+                          </li>
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/micro_24dp.svg" alt="voice messages" width="30" height="30">
+                            <a class="m-0 text-decoration-none text-dark" href="#">24 voice messages</a>
+                          </li>
+                          <li class="d-flex align-items-center mb-2">
+                            <img class="mr-5" src="img/gif.svg" alt="photos" width="30" height="30">
+                            <a class="m-0 text-decoration-none text-dark" href="#">291 GiFs</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <div class="d-flex flex-column w-100 flex-grow-1">
+                        <div class="d-flex align-items-center w-100">
+                          <img src="img/group.svg" alt="members" width="30" height="30">
+                          <a class="text-decoration-none d-block ml-5 text-dark m-0 h6" href="#">21 MEMBERS</a>
+                          <img class="ml-auto" src="img/search-icon.svg" alt="memeber search" width="30" height="30">
+                        </div>
+                        
+                        <div class="d-flex flex-column mt-4">
+                          <div class="d-flex align-items-center mb-3">
+                            <img class="rounded-pill" src="img/Muhammadjavohir-aka.jpg" alt="avatar" width="50" height="50">
+                            <a class="text-decoration-none text-dark ml-3" href="#">
+                              <p class="m-0 font-weight-bold">Muhammadjavohir Su'ratov</p>
+                              <span class="text-black-50">last seen recently</span>
+                            </a>
+                          </div>
+                          <div class="d-flex align-items-center mb-3">
+                            <img class="rounded-pill" src="img/profile.jpg" alt="avatar" width="50" height="50">
+                            <a class="text-decoration-none text-dark ml-3" href="#">
+                              <p class="m-0 font-weight-bold">Sardor Turaev</p>
+                              <span class="text-success">online</span>
+                            </a>
+                          </div>
+                          <div class="d-flex align-items-center mb-3">
+                            <img class="rounded-pill" src="img/Asrorxojaka.jpg" alt="avatar" width="50" height="50">
+                            <a class="text-decoration-none text-dark ml-3" href="#">
+                              <p class="m-0 font-weight-bold">Asrorxo'ja aka</p>
+                              <span class="text-black-50">last seen just now</span>
+                            </a>
+                          </div>
+                          <div class="d-flex align-items-center mb-3">
+                            <img class="rounded-pill" src="img/Abdullohaka.jpg" alt="avatar" width="50" height="50">
+                            <a class="text-decoration-none text-dark ml-3" href="#">
+                              <p class="m-0 font-weight-bold">Abdulloh aka</p>
+                              <span class="text-success">online</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade overflow-hidden" id="mainHeaderAudioChat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content bg-light">
+                    <div class="modal-header bg-white border-0">
+                      <h5 class="mb-0">Start Voice Chat at...</h5>
+                    </div>
+                    <div class="modal-body border-0 bg-white p-0">
+                      <p class="mb-3 px-3">Coose whether you want to be displayed as your personal account or as your channel.</p>
+                      <ul class="d-flex flex-column list-unstyled overflow-auto px-3" style="height: 65vh;">
+                        <li class="mb-3">
+                          <button class="btn d-flex align-items-center p-0">
+                            <img class="rounded-pill mr-2" src="img/Muhammadjavohir-aka.jpg" alt="Muhammadjavohir-aka" width="50" height="50">
+                            <span class="d-flex flex-column align-items-start">
+                              <span class="mb-1 text-dark h6">Muhammadjavohir Sur'atov</span>
+                              <p class="mb-0 text-secondary">personal account</p>
+                            </span>
+                          </button>
+                        </li>
+                        <li class="mb-3">
+                          <button class="btn d-flex align-items-center p-0">
+                            <img class="rounded-pill mr-2" src="img/mayoq.jpg" alt="Muhammadjavohir-aka" width="50" height="50">
+                            <p class="d-flex flex-column align-items-start">
+                              <h6 class="mb-1 text-dark">Mayoq</h6>
+                              <p class="mb-0 text-secondary">4683 subscribers</p>
+                            </p>
+                          </button>
+                        </li>
+                        <li class="mb-3">
+                          <button class="btn d-flex align-items-center p-0">
+                            <img class="rounded-pill mr-2" src="img/Abdullohaka.jpg" alt="Abdullohaka" width="50" height="50">
+                            <span class="d-flex flex-column align-items-start">
+                              <h6 class="mb-1 text-dark">Mayoq</h6>
+                              <p class="mb-0 text-secondary">4683 subscribers</p>
+                            </span>
+                          </button>
+                        </li>
+                        <li class="mb-3">
+                          <button class="btn d-flex align-items-center p-0">
+                            <img class="rounded-pill mr-2" src="img/profile.jpg" alt="mine" width="50" height="50">
+                            <span class="d-flex flex-column align-items-start">
+                              <h6 class="mb-1 text-dark">Sardor Turaev</h6>
+                              <p class="mb-0 text-secondary">4683 subscribers</p>
+                            </span>
+                          </button>
+                        </li>
+                        <li class="mb-3">
+                          <button class="btn d-flex align-items-center p-0">
+                            <img class="rounded-pill mr-2" src="img/Muhammadjavohir-aka.jpg" alt="Muhammadjavohir-aka" width="50" height="50">
+                            <span class="d-flex flex-column align-items-start">
+                              <h6 class="mb-1 text-dark">Mayoq</h6>
+                              <p class="mb-0 text-secondary">4683 subscribers</p>
+                            </span>
+                          </button>
+                        </li>
+                        <li class="mb-3">
+                          <button class="btn d-flex align-items-center p-0">
+                            <img class="rounded-pill mr-2" src="img/Muhammadjavohir-aka.jpg" alt="Muhammadjavohir-aka" width="50" height="50">
+                            <span class="d-flex flex-column align-items-start">
+                              <h6 class="mb-1 text-dark">Mayoq</h6>
+                              <p class="mb-0 text-secondary">4683 subscribers</p>
+                            </span>
+                          </button>
+                        </li>
+
+                        <li class="mb-3">
+                          <button class="btn d-flex align-items-center p-0">
+                            <img class="rounded-pill mr-2" src="img/Muhammadjavohir-aka.jpg" alt="Muhammadjavohir-aka" width="50" height="50">
+                            <span class="d-flex flex-column align-items-start">
+                              <h6 class="mb-1 text-dark">Mayoq</h6>
+                              <p class="mb-0 text-secondary">4683 subscribers</p>
+                            </span>
+                          </button>
+                        </li>
+
+                        <li class="mb-3">
+                          <button class="btn d-flex align-items-center p-0">
+                            <img class="rounded-pill mr-2" src="img/Muhammadjavohir-aka.jpg" alt="Muhammadjavohir-aka" width="50" height="50">
+                            <span class="d-flex flex-column align-items-start">
+                              <h6 class="mb-1 text-dark">Mayoq</h6>
+                              <p class="mb-0 text-secondary">4683 subscribers</p>
+                            </span>
+                          </button>
+                        </li>
+
+                        <li class="mb-3">
+                          <button class="btn d-flex align-items-center p-0">
+                            <img class="rounded-pill mr-2" src="img/Muhammadjavohir-aka.jpg" alt="Muhammadjavohir-aka" width="50" height="50">
+                            <span class="d-flex flex-column align-items-start">
+                              <h6 class="mb-1 text-dark">Mayoq</h6>
+                              <p class="mb-0 text-secondary">4683 subscribers</p>
+                            </span>
+                          </button>
+                        </li>                      
+                      </ul>
+
+                    </div>
+                    <div class="modal-footer border-0 bg-white">
+                      <button type="button" class="btn btn-primary px-3 py-2" data-dismiss="modal">
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary px-3 py-2">Continue</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="pinned-message shadow p-2">
+                <div class="d-flex">
+                  <img class="mr-1" src="img/dots.svg" alt="Pinned Icon">
+                  <div class="pinned-messages__content text-truncate  m-0 ">
+                    <h6 class="m-0 mb-1 text-primary font-weight-bold">Pinned message</h6>
+                    80-dars - 20.08.2021
+                    
+                    Bootstrap 4 dan Imtihon
+                    1. Chatlar - 19.08.2021 - 15:00-15:15 ZIP
+                    - oddiy chat, kanal, bot, guruh
+                    2. Chat - 20.08.2021 - 18:00-18:15 ZIP
+                    3. Emoji/stickerlar - 21.08.2021 - 18:00-18:15 GitHub/Netlify
+                  </div>
+                  <img class="my-auto" src="img/pin.svg" width="20" height="20" alt="PIN">
+                </div>
+              </div>
+              
+              <div class="overflow-auto vh-100 chat">
+                <div class="d-flex flex-column pt-1 px-2">
+                  <span class="text-center"><time class="chat__time px-2 bg-success rounded-pill" datetime="20 August">August 20</time></span>
+                  <div class="chat__text">
+                    <img class="rounded-circle" src="img/.jpg" width="30" height="30" alt="Person">
+                    <div class="chat__text-message bg-white">
+                      <p class="m-0"></p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="chat__panel w-100 bg-white p-1">
+                  <form class="d-flex align-items-center" action="https://echo.htmlacademy.ru" method="POST">
+                    <div class="input-group d-flex align-items-center">
+                      <div>
+                        <label class="d-flex align-items-center">
+                          <input class="input-file form-control" type="file">
+                          <span class="btn-file"></span>
+                        </label>
+                      </div>
+                      
+                      <textarea class="txt-message flex-grow-1 border-0 px-3" name="message" cols="30" rows="1" placeholder="Write a message..."></textarea>
+                      
+                      <button class="btn-emojis border-0 bg-transparent mr-2" type="button"></button>
+                      <button class="btn-record-audio border-0 bg-transparent" type="button"></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+                
+                <div class="chat__panel w-100 bg-white p-1">
+                  <form class="d-flex align-items-center" action="https://echo.htmlacademy.ru" method="POST">
+                    <div class="input-group d-flex align-items-center">
+                      <div>
+                        <label class="d-flex align-items-center">
+                          <input class="input-file form-control" type="file">
+                          <span class="btn-file"></span>
+                        </label>
+                      </div>
+                      
+                      <textarea class="txt-message flex-grow-1 border-0 px-3" name="message" cols="30" rows="1" placeholder="Write a message..."></textarea>
+                      
+                      <button class="btn-emojis border-0 bg-transparent mr-2" type="button"></button>
+                      <button class="btn-record-audio border-0 bg-transparent" type="button"></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+
+        
+        <div class="col-md-3">
+          <ul class="nav nav-pills mb-0 nav-emoji  row bg-white border-bottom" id="pills-tab" role="tablist"> 
+            <li class="nav-item col-4" role="presentation"> 
+              <a class="nav-link active bg-white text-black-50 text-center py-3 h6" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">EMOJI</a> 
+            </li> 
+            <li class="nav-item col-4" role="presentation"> 
+              <a class="nav-link bg-white text-black-50 text-center py-3 h6" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">STICKERS</a> 
+            </li> 
+            <li class="nav-item col-4" role="presentation"> 
+              <a class="nav-link bg-white text-black-50 text-center py-3 h6" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">GIFS</a> 
+            </li> 
+          </ul> 
+          
+          <div class="tab-content" id="pills-tabContent"> 
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> 
+              <div class="hero-smile__box"> 
+                
+                <div class="pb-3"> 
+                  <h4 class="h6 pl-3 text-secondary" id="smile-recently">Recently used</h4> 
+                  <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1 ">😀</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😅</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😀</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😃</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😄</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">😁</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😆</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😂</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">👏🏻</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤔</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">👌🏻</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😍</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😎</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😉</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😀</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😀</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">❤️</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🧐</button> 
+                    </li> 
+                  </ul> 
+                </div> 
+                
+                <div class="pb-3" > 
+                  <h4 class="h6 pl-3 text-secondary" id="smile-people">People</h4> 
+                  <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1 ">😍</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥰</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😘</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😗</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😙</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">😋</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😛</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😜</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤪</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😎</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥸</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤩</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥳</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😏</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😫</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😞</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤯</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥺</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1 ">😡</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤬</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😶‍🌫️</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😱</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">😨</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😥</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤗</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥵</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤥</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤫</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤭</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤔</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🙄</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😯</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😵</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😬</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥱</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">😨</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😥</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤗</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥵</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤥</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤫</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤭</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤔</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🙄</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😯</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😵</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😬</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥱</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😯</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😵</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">😬</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥱</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🤗</button> 
+                    </li> 
+                  </ul> 
+                </div> 
+                
+                <div class="pb-3" > 
+                  <h4 class="h6 pl-3 text-secondary" id="smile-recently">Nature</h4> 
+                  <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🐶</button> 
+                    </li> 
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                      <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">
+                        🦁</button> 
+                      </li> 
+                    </ul> 
+                    <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🦁</button> 
+                      </li> 
+                    </ul> 
+                  </div> 
+                  <div class="pb-3" > 
+                    <h4 class="h6 pl-3 text-secondary" id="smile-people">Food & Drink</h4> 
+                    <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1 ">🍎</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🍊</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🍉</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥬</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥭</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">🧀</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🫓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥑</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥬</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥔</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🍠</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥥</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🍣</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🍿</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🍺</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥃</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥜</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🍶</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1 ">🍝</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🍚</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🍡</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥮</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🥯</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">🧊</button> 
+                      </li> 
+                    </ul> 
+                  </div> 
+                  
+                  <div class="pb-3" > 
+                    <h4 class="h6 pl-3 text-secondary" id="smile-recently">Activity</h4> 
+                    <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">⏰</button> 
+                      </li> 
+                    </ul> 
+                    <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                    </ul> 
+                    <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1 ">😀</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🪓</button> 
+                      </li> 
+                    </ul> 
+                  </div> 
+                  <div class="pb-3" > 
+                    <h4 class="h6 pl-3 text-secondary" id="smile-recently">Symbols & Flags</h4> 
+                    <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">☪️</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">❌</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">❌</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">❌</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">❌</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">❌</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">❌</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">❌</button> 
+                      </li> 
+                    </ul> 
+                    <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">📳</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">📳</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">📳</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">📳</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">📳</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 py-1 flex-grow-1">📳</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">📳</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">📳</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">📳</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🎦</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🎦</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🎦</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🎦</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🎦</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🎦</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🎦</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🎦</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🎦</button> 
+                      </li> 
+                    </ul> 
+                    <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex align-items-center"> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="emojis__item btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1 ">😀</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">🎦</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0 flex-grow-1">📶</button> 
+                      </li> 
+                      <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0"> 
+                        <button class="btn-emoji bg-transparent h3 border-0 p-0">
+                        </button>    </li>
+                      </ul>   </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <script src="js/jquery-3.6.0.min.js"></script>
+          <script src="js/bootstrap.bundle.min.js"></script>
+          <script>
+            $(function () {
+              $('#myList a:last-child').tab('show')
+            })
+          </script>
+          
+        </body>
+        </html>
+        

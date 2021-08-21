@@ -1,0 +1,127 @@
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #adadad; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #adadad; 
+}
+
+.chat__time{
+    font-size: 14px;
+    background-color: rgba(228, 218, 218, 0.482) !important;
+    opacity: 0.9;
+}
+
+.chat{
+    background-image: url(/img/bg-chats.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;   
+    overflow: auto;
+}
+
+
+/* CHAT PANEL */
+.chat__panel{
+    width: 100% !important;
+    z-index: 999;
+    margin-top: 66vh;
+}
+
+.input-file{
+    display: none;
+}
+
+.txt-message{
+    resize: none;
+    outline: none;
+}
+
+.btn-file{
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-image: url("/img/icon-strech.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.btn-emojis{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-image: url("/img/smile.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-record-audio{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-image: url("/img/micro_24dp.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.chat-title{
+    display: block;
+    max-width: 150px;
+}
+
+.chat-chat{
+    display: block;
+    max-width: 230px;
+}
+
+.triangle{
+    bottom: 0;
+    left: -6px;
+    border: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+}
+
+.triangle-right{
+    bottom: 0;
+    right: -6px;
+    border: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+}
+
+.chat-all__write{
+    max-width: 580px;
+}
+
+.chat__time-text{
+    font-size: 12px;
+}
+
+.hero-smile__box{
+    overflow: auto;
+    height: 84vh;
+}
+
+.nav-emoji{
+    margin-top: 4px;
+}
